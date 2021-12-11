@@ -1,0 +1,16 @@
+parameters:
+    level: 8
+    paths:
+        - %rootDir%/../src
+    inferPrivatePropertyTypeFromConstructor: true
+    checkGenericClassInNonGenericObjectType: false
+    ignoreErrors:
+    excludes_analyse:
+    fileExtensions:
+        - php
+includes:
+        - %rootDir%/../../../vendor/phpstan/phpstan-symfony/extension.neon
+        - %rootDir%/../../../vendor/phpstan/phpstan-doctrine/extension.neon
+        - %rootDir%/../../../vendor/phpstan/phpstan-doctrine/rules.neon
+        - %rootDir%/../../../vendor/phpstan/phpstan-phpunit/extension.neon
+        - %rootDir%/../../../vendor/phpstan/phpstan-phpunit/rules.neon
