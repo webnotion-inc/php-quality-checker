@@ -1,5 +1,4 @@
 # PHP Quality Checker
-___
 
 - [About](#about)
 - [Installation](#installation)
@@ -7,7 +6,6 @@ ___
 - [FAQ](#faq)
 
 ## About
-___
 
 This package contains a bash script, which takes all changed files using git and handles quality scanning for these files.
 
@@ -17,7 +15,6 @@ Following tools are used to handle PHP code quality scanning:
 - PHPLint
 
 ## Installation
-___
 
 1. Download the package using composer by running:
 
@@ -52,7 +49,6 @@ ___
 4. Run `composer install`. If everything went successfully, GIT hook was successfully created.
 
 ## Usage
-___
 
 1. After doing any changes in PHP files try to commit it. You should see scanning in progress:
 

@@ -1,5 +1,5 @@
 {
-    "name": "dslezas/php-quality-checker",
+    "name": "webnotion/php-quality-checker",
     "type": "library",
     "license": "MIT",
     "require": {
