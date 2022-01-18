@@ -8,10 +8,5 @@
         "phpstan/phpstan-phpunit": "^0.12.20",
         "phpstan/phpstan-symfony": "^0.12.37",
         "friendsofphp/php-cs-fixer": "^3.0"
-    },
-    "scripts": {
-        "post-install-cmd": [
-            "QualityChecker\\ScriptHandler::postHooks"
-        ]
     }
 }

@@ -19,7 +19,7 @@ Following tools are used to handle PHP code quality scanning:
 1. Download the package using composer by running:
 
     ```shell
-    composer require dslezas/php-quality-checker
+    composer require webnotion/php-quality-checker
     ```
    
 
@@ -31,7 +31,7 @@ Following tools are used to handle PHP code quality scanning:
    {
       "scripts": {
          "post-install-cmd": [
-            "vendor/dslezas/php-quality-checker/init_hook.sh"
+            "cp vendor/webnotion/php-quality-checker/init.sh .git/hooks/pre-commit"
          ]
       }
    }
